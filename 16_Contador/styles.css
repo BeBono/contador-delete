@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: blue;
+}
+
+.contenedor {
+    background-color: green;
+    border: 1px solid black;
+    height: 50vh;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#pantalla {
+    background-color: white;
+    height: 25vh;
+    display: block;
+    border-radius: 20px;
+
+    color: gray;
+    font-size: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: blue;
+    width: 200px;
+    height: 10vh;
+    border-radius: 20px;
+    margin: 30px;
+}
